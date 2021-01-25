@@ -1,0 +1,537 @@
+# Translation of Themes - HoneyWaves in French (France)
+# This file is distributed under the same license as the Themes - HoneyWaves package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-01 20:34:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - HoneyWaves\n"
+
+#. Description of the theme
+msgid "HoneyWaves is a lightweight, elegant and fully featured theme, crafted for businesses, magazines, newspaper, personal blogs, online shops, restaurants, wedding planners, gyms, and more. HoneyWaves has special features like a slider banner, testimonials, services, and blogs. It's fully responsive and compatible with any device. Easy to use and implement, HoneyWaves is also compatible with WooCommerce. You can easily import dummy data with the SpiceBox plugin."
+msgstr "HoneyWaves est un thème léger, élégant et pleinement fonctionnel conçu pour les entreprises, magazines, journaux, blogs personnels, boutique en ligne, restaurants, planificateurs de mariage, gyms et plus encore. Le thème HoneyWaves a des fonctionnalités spéciales comme un diaporama de bannière, des témoignages, des services et blogs. Il est entièrement réactif et compatible avec n’importe quel appareil. Facile à utiliser et à mettre en place. Le thème HoneyWaves est également compatible avec WooCommerce. vous pouvez facilement importer des données factices via l’extension SpiceBox."
+
+#. Theme Name of the theme
+#: functions.php:136
+msgid "HoneyWaves"
+msgstr "HoneyWaves"
+
+#: index-news.php:73
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: index-news.php:64
+msgid "By"
+msgstr "Par"
+
+#: index-news.php:10
+msgid "Cras Vitae Placerat"
+msgstr "Cras Vitae Placerat"
+
+#: index-news.php:9
+msgid "Vitae Lacinia"
+msgstr "Vitae Lacinia"
+
+#: inc/header/header-nav.php:15
+msgid "Toggle navigation"
+msgstr "Afficher/masquer la navigation"
+
+#: inc/customizer/customizer_theme_style.php:33
+msgid "Skin color"
+msgstr "Palette de couleur"
+
+#: inc/customizer/customizer_theme_style.php:19
+msgid "Enable custom color skin"
+msgstr "Activer la palette de couleur personnalisée"
+
+#: inc/customizer/customizer_theme_style.php:7
+msgid "Custom Color Settings"
+msgstr "Réglages de couleur personnalisée"
+
+#: header.php:15
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: functions.php:131
+msgid "Proudly powered by <a href=\"https://wordpress.org\"> WordPress</a> | Theme: <a href=\"https://spicethemes.com\" rel=\"nofollow\">HoneyWaves</a> by SpiceThemes"
+msgstr "Fièrement propulsé par <a href=\"https://wordpress.org\"> WordPress</a> | Thème : <a href=\"https://spicethemes.com\" rel=\"nofollow\">HoneyWaves</a> par SpiceThemes"
+
+#: functions/widgets/wdl_topbar_info.php:122
+msgid "Email"
+msgstr "E-mail"
+
+#: functions/widgets/wdl_topbar_info.php:110
+msgid "Phone"
+msgstr "Téléphone"
+
+#: functions/widgets/wdl_topbar_info.php:107
+#: functions/widgets/wdl_topbar_info.php:120
+msgid "Link to get Font Awesome icons"
+msgstr "Lien pour obtenir des icônes Font Awesome"
+
+#: functions/widgets/wdl_topbar_info.php:107
+#: functions/widgets/wdl_topbar_info.php:120
+msgid "fa-icon"
+msgstr "fa-icon"
+
+#: functions/widgets/wdl_topbar_info.php:102
+#: functions/widgets/wdl_topbar_info.php:115
+msgid "Font Awesome icon"
+msgstr "Icône Font Awesome"
+
+#: functions/widgets/wdl_topbar_info.php:96
+msgid "abc@example.com"
+msgstr "abc@exemple.com"
+
+#: functions/widgets/wdl_topbar_info.php:84
+msgid "+99 999-999-9999"
+msgstr "+99 999-999-9999"
+
+#: functions/widgets/wdl_topbar_info.php:19
+msgid "Topbar header info widget."
+msgstr "Zone de widgets d’info d’en-tête haute."
+
+#: functions/widgets/wdl_topbar_info.php:16
+msgid "HoneyWaves: Header info widget"
+msgstr "HoneyWaves : Widget info d’en-tête"
+
+#: functions/widgets/wdl_social_icon.php:248
+msgid "Dribble URL"
+msgstr "URL de Dribble"
+
+#: functions/widgets/wdl_social_icon.php:242
+msgid "Vimeo URL"
+msgstr "URL Vimeo :"
+
+#: functions/widgets/wdl_social_icon.php:236
+msgid "Skype URL"
+msgstr "URL de Skype"
+
+#: functions/widgets/wdl_social_icon.php:230
+msgid "Youtube URL"
+msgstr "URL de YouTube "
+
+#: functions/widgets/wdl_social_icon.php:224
+msgid "Instagram URL"
+msgstr "URL d’Instagram"
+
+#: functions/widgets/wdl_social_icon.php:218
+msgid "LinkedIn URL"
+msgstr "URL LinkedIn :"
+
+#: functions/widgets/wdl_social_icon.php:212
+msgid "Google-Plus URL"
+msgstr "URL Google-Plus"
+
+#: functions/widgets/wdl_social_icon.php:206
+msgid "Twitter URL"
+msgstr "URL de Twitter"
+
+#: functions/widgets/wdl_social_icon.php:203
+#: functions/widgets/wdl_social_icon.php:209
+#: functions/widgets/wdl_social_icon.php:215
+#: functions/widgets/wdl_social_icon.php:221
+#: functions/widgets/wdl_social_icon.php:227
+#: functions/widgets/wdl_social_icon.php:233
+#: functions/widgets/wdl_social_icon.php:239
+#: functions/widgets/wdl_social_icon.php:245
+#: functions/widgets/wdl_social_icon.php:251
+msgid "Open link in new tab"
+msgstr "Ouvrir le lien dans un nouvel onglet"
+
+#: functions/widgets/wdl_social_icon.php:200
+msgid "Facebook URL"
+msgstr "URL de Facebook"
+
+#: functions/widgets/wdl_social_icon.php:16
+msgid "HoneyWaves social icons widget"
+msgstr "Widget d’icônes sociaux HoneyWaves"
+
+#: functions/widgets/wdl_social_icon.php:13
+msgid "HoneyWaves: Social icons"
+msgstr "HoneyWaves : Icônes sociaux"
+
+#: functions/widgets/sidebars.php:19
+msgid "Subscriber section widget area"
+msgstr "Zone de widget de section d’abonnement"
+
+#: functions/widgets/sidebars.php:17
+msgid "Top header sidebar Right area"
+msgstr "Zone d’en-tête haute de droite"
+
+#: functions/widgets/sidebars.php:10
+msgid "Social media menu lateral area"
+msgstr "Zone latérale de menu de réseaux sociaux"
+
+#: functions/widgets/sidebars.php:8
+msgid "Top header sidebar left area"
+msgstr "Zone d’en-tête haute de gauche"
+
+#: admin/tab-pages/useful_plugins.php:21
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "Vous voulez obtenir l’essentiel sur les derniers changements de thème ? Il vous suffit de consulter notre journal ci-dessous pour obtenir un avant-goût des correctifs récents et des fonctionnalités mises en place."
+
+#: admin/tab-pages/useful_plugins.php:13
+msgid "We want to make sure you have the best experience using HoneyWaves, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using HoneyWaves as much as we enjoy creating great products."
+msgstr "Nous voulons nous assurer que vous avez la meilleure expérience en utilisant HoneyWaves et c’est pourquoi nous avons rassemblé ici toutes les informations nécessaires. Nous espérons que vous apprécierez l’utilisation de HoneyWaves, autant que nous aimons créer de superbes produits."
+
+#: admin/tab-pages/useful_plugins.php:12 admin/tab-pages/useful_plugins.php:14
+msgid "Contact Support"
+msgstr "Contacter le support"
+
+#: admin/tab-pages/getting-started.php:81
+msgid "Premium Theme Details"
+msgstr "Détails du thème premium"
+
+#: admin/tab-pages/getting-started.php:71
+msgid "Premium Theme Support"
+msgstr "Support du thème premium"
+
+#: admin/tab-pages/getting-started.php:68
+msgid "Your feedback is valuable to us"
+msgstr "Votre avis nous est précieux"
+
+#: admin/tab-pages/getting-started.php:57
+msgid "PRO Demo"
+msgstr "Démo PRO"
+
+#: admin/tab-pages/getting-started.php:53
+msgid "Lite Demo"
+msgstr "Démo Lite"
+
+#: admin/tab-pages/getting-started.php:45
+msgid "Useful Links"
+msgstr "Liens utiles"
+
+#: admin/tab-pages/getting-started.php:36
+msgid "HoneyWaves theme"
+msgstr "Thème HoneyWaves"
+
+#: admin/tab-pages/getting-started.php:30
+msgid "Go to the Customizer"
+msgstr "Aller dans la personnalisation"
+
+#: admin/tab-pages/getting-started.php:27
+msgid "To take full advantage of all the features this theme has to offer, install and activate the SpiceBox plugin. Go to Customize and install the SpiceBox plugin."
+msgstr "Pour tirer pleinement avantage de toutes les fonctionnalités que ce thème offre, veuillez installer et activer l’extension SpiceBox. Allez dans Personnaliser et installez l’extension SpiceBox."
+
+#: admin/tab-pages/getting-started.php:20
+msgid "You can use this theme for any type of activity. HoneyWaves is compatible with popular plugins like WPML and Polylang for the translation."
+msgstr "Vous pouvez utiliser ce thème pour tout type d’activité. HoneyWaves est compatible avec des extensions populaires comme WPML et Polylang pour la traduction."
+
+#: admin/tab-pages/getting-started.php:18
+msgid "This theme is ideal for creating corporate and business websites. HoneyWaves is a child theme of the HoneyPress WordPress theme. The premium version has tons of features like a homepage with many sections where you can feature unlimited slides, portfolios, user reviews, latest news, services, call to action and much more. Each section in the Homepage template is carefully designed to fit to all business requirements."
+msgstr "Ce thème est idéal pour créer des sites corporatifs et d’entreprise. HoneyWaves est un thème enfant du thème WordPress HoneyPress. La version Premium possède de nombreuses fonctionnalités : une page d’accueil avec plusieurs sections où vous pouvez mettre en avant des diapositives illimitées, des portfolios, des avis d’utilisateur, des nouveautés, des services, des appels à l’action et bien plus encore. Chaque section dans le modèle de la page d’accueil est conçue avec soin pour s’adapter aux exigences de toutes les entreprises."
+
+#: admin/tab-pages/getting-started.php:12
+msgid "About the HoneyWaves theme"
+msgstr "À propos du thème HoneyWaves"
+
+#: admin/tab-pages/free_vs_pro.php:152
+msgid "Get PRO Version Now!"
+msgstr "Obtenir la version Pro maintenant !"
+
+#: admin/tab-pages/free_vs_pro.php:142
+msgid "Premium Support Forum"
+msgstr "Forum de support premium"
+
+#: admin/tab-pages/free_vs_pro.php:129
+msgid "Wide layout & Boxed Layout"
+msgstr "Mise en page large et encadrée"
+
+#: admin/tab-pages/free_vs_pro.php:128
+msgid "About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, Page Full Width, Contact Page and much more."
+msgstr "À propos, Services, Portfolio, Colonnes latérales de blog droite et gauche, Blog en pleine largeur, Page de contact et bien plus encore."
+
+#: admin/tab-pages/free_vs_pro.php:126
+msgid "Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited], Latest News, Clients, Testimonials, Custom Widgets"
+msgstr "En-tête haut, Diaporama [diapositives illimitées], Services [illimités], Portfolio [illimités], Dernières nouvelles, Clients, Témoignages et widgets personnalisés."
+
+#: admin/tab-pages/free_vs_pro.php:121
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/tab-pages/free_vs_pro.php:109
+msgid "On WordPress.org Support Forum"
+msgstr "Sur le forum de support WordPress.org"
+
+#: admin/tab-pages/free_vs_pro.php:96
+msgid "Wide Layout"
+msgstr "Mise en page large"
+
+#: admin/tab-pages/free_vs_pro.php:95
+msgid "Business Template and Full-Width Template"
+msgstr "Modèle d’entreprise et modèle en pleine largeur"
+
+#: admin/tab-pages/free_vs_pro.php:90
+msgid "Slider [Static Image], Services [3 Services], Testimonial, Latest News"
+msgstr "Diaporama [Image statique], Services [3 services], Témoignage, Nouveautés"
+
+#: admin/tab-pages/free_vs_pro.php:84
+msgid "Free"
+msgstr "Gratuit"
+
+#: admin/tab-pages/free_vs_pro.php:70
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "Obtenez un support instantané 24/7 sur notre forum."
+
+#: admin/tab-pages/free_vs_pro.php:69
+msgid "Support Forum"
+msgstr "Forum de support"
+
+#: admin/tab-pages/free_vs_pro.php:66
+msgid "You can use WPML to make your website multilingual."
+msgstr "Vous pouvez utiliser WPML pour rendre votre site multilingue."
+
+#: admin/tab-pages/free_vs_pro.php:65
+msgid "WPML Support"
+msgstr "Prise en charge de WPML"
+
+#: admin/tab-pages/free_vs_pro.php:61
+msgid "You can customize the style without adding any code."
+msgstr "Personnalisez le style sans ajouter du code."
+
+#: admin/tab-pages/free_vs_pro.php:60
+msgid "Typography Settings"
+msgstr "Réglages de la typographie"
+
+#: admin/tab-pages/free_vs_pro.php:53 admin/tab-pages/free_vs_pro.php:57
+msgid "Show user feedback on the Homepage."
+msgstr "Affichez vos retours client sur la page d’accueil."
+
+#: admin/tab-pages/free_vs_pro.php:52
+msgid "Testimonial/Review Section"
+msgstr "Section Témoignage / Avis"
+
+#: admin/tab-pages/free_vs_pro.php:49
+msgid "Show all your services in a single place."
+msgstr "Afficher tous vos services à un seul endroit."
+
+#: admin/tab-pages/free_vs_pro.php:48
+msgid "Services Page"
+msgstr "Page Services"
+
+#: admin/tab-pages/free_vs_pro.php:45
+msgid "Show team members and custom content added in the WordPress editor."
+msgstr "Afficher les membres de votre équipe et du contenu personnalisé via l’éditeur WordPress."
+
+#: admin/tab-pages/free_vs_pro.php:44
+msgid "About Us Page"
+msgstr "Page À propos de nous"
+
+#: admin/tab-pages/free_vs_pro.php:41
+msgid "Present your project/portfolio collection with 2 column, 3 column and 4 column layouts. You can also display your project/portfolio by category."
+msgstr "Présenter votre collection de projet/portfolio avec des mises en page en 2, 3 et 4 colonnes. Vous pouvez aussi afficher vos projets/portfolios par catégorie."
+
+#: admin/tab-pages/free_vs_pro.php:40
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: admin/tab-pages/free_vs_pro.php:38
+msgid "Display your Shop and Business location on your website using Google Maps."
+msgstr "Affichez l’emplacement de votre boutique et de votre entreprise sur votre site en utilisant Google Maps."
+
+#: admin/tab-pages/free_vs_pro.php:37
+msgid "Google Map"
+msgstr "Carte Google"
+
+#: admin/tab-pages/free_vs_pro.php:35
+msgid "Enjoy any of the 7 preset color schemes, or create your own, without adding any code."
+msgstr "Appréciez l’utilisation de 7 jeux de couleurs prédéfinis. Vous pouvez également créer vos propres jeux sans ajouter de code."
+
+#: admin/tab-pages/free_vs_pro.php:34
+msgid "Mulitple Color Schemes"
+msgstr "Nombreux jeux de couleurs"
+
+#: admin/tab-pages/free_vs_pro.php:31
+msgid "This theme supports the Contact Form 7 plugin. Use it to build your contact form."
+msgstr "Ce thème prend en charge l’extension Contact Form 7. Utilisez-la pour construire votre formulaire de contact."
+
+#: admin/tab-pages/free_vs_pro.php:30
+msgid "Contact Form Support"
+msgstr "Support de formulaire de contact"
+
+#: admin/tab-pages/free_vs_pro.php:28
+msgid "Responsive layout in all devices"
+msgstr "Mise en page responsive sur tous les périphériques"
+
+#: admin/tab-pages/free_vs_pro.php:27
+msgid "Mobile Friendly"
+msgstr "Compatibilité mobile"
+
+#: admin/tab-pages/free_vs_pro.php:25
+msgid "HoneyWaves supports both a Full-Width and a Boxed layout options. To choose your preference (and switch between them) go to Appearance > Customize."
+msgstr "HoneyWaves contient des options de mise en page encadrée ainsi qu’en pleine largeur. Pour choisir celle que vous préférez (et basculer entre les deux) allez dans Apparence > Personnaliser."
+
+#: admin/tab-pages/free_vs_pro.php:24
+msgid "Layout Options"
+msgstr "Options de mise en page"
+
+#: admin/tab-pages/free_vs_pro.php:22
+msgid "HoneyWaves includes various page templates."
+msgstr "Honeywaves inclus différents modèles de page."
+
+#: admin/tab-pages/free_vs_pro.php:21
+msgid "Page Templates Support"
+msgstr "Support des modèles de page"
+
+#: admin/tab-pages/free_vs_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "Vous trouverez un certain nombre de sections sur la page d’accueil."
+
+#: admin/tab-pages/free_vs_pro.php:18
+msgid "Frontpage Sections"
+msgstr "Sections de page d’accueil"
+
+#: admin/tab-pages/free_vs_pro.php:14
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: admin/inc/include-companion.php:98
+msgid "Activate now"
+msgstr "Activer maintenant"
+
+#: admin/inc/include-companion.php:97
+msgid "Activate SpiceBox now"
+msgstr "Activer SpiceBox maintenant"
+
+#: admin/inc/include-companion.php:96
+msgid "You have installed the SpiceBox plugin. To take advantage of this theme's features in the customizer, you need to activate it."
+msgstr "Vous avez installé l’extension SpiceBox. Pour tirer avantage des fonctions de ce thème dans la personnalisation, vous devez l’activer."
+
+#: admin/inc/include-companion.php:80
+msgid "Install SpiceBox Now"
+msgstr "Installer SpiceBox maintenant"
+
+#: admin/inc/include-companion.php:79
+msgid "To take advantage of this theme's features in the customizer you need to install the SpiceBox plugin."
+msgstr "Pour tirer avantage des fonctions du thème dans la personnalisation vous devez installer l’extension SpiceBox."
+
+#: admin/inc/class-spicethemes-about-page.php:561
+msgid "To display breadcrumbs, please install the Yoast SEO plugin."
+msgstr "Pour afficher les fils d’Ariane, veuillez installer l’extension Yoast SEO."
+
+#: admin/inc/class-spicethemes-about-page.php:559
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: admin/inc/class-spicethemes-about-page.php:555
+msgid "To display the contact form on the contact section in homepage, please install the Contact Form 7 plugin"
+msgstr "Pour afficher le formulaire de contact sur la section de contact de la page d’accueil, veuillez installer l’extension Contact Form 7."
+
+#: admin/inc/class-spicethemes-about-page.php:553
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: admin/inc/class-spicethemes-about-page.php:549
+msgid "To access the advance Frontpage sections and other theme features, please install the SpiceBox plugin."
+msgstr "Pour accéder aux sections avancées de la page d’accueil et aux autres fonctionnalités du thème, veuillez installer l’extension SpiceBox."
+
+#: admin/inc/include-companion.php:80 admin/inc/include-companion.php:97
+#: admin/inc/class-spicethemes-about-page.php:547
+msgid "SpiceBox"
+msgstr "SpiceBox"
+
+#: admin/inc/class-spicethemes-about-page.php:423
+msgid "Active"
+msgstr "Activé"
+
+#: admin/inc/class-spicethemes-about-page.php:420
+msgid "Activate"
+msgstr "Activer"
+
+#: admin/inc/class-spicethemes-about-page.php:418
+msgid "Activate %s now"
+msgstr "Activer %s maintenant"
+
+#: admin/inc/include-companion.php:81
+#: admin/inc/class-spicethemes-about-page.php:401
+msgid "Install and activate"
+msgstr "Installer et activer"
+
+#: admin/inc/class-spicethemes-about-page.php:399
+msgid "Install %s now"
+msgstr "Installer %s maintenant"
+
+#: admin/inc/class-spicethemes-about-page.php:320
+msgid "Free vs. PRO"
+msgstr "Gratuit vs. Pro"
+
+#: admin/inc/class-spicethemes-about-page.php:315
+#: admin/tab-pages/useful_plugins.php:20 admin/tab-pages/useful_plugins.php:22
+msgid "Changelog"
+msgstr "Journal des modifications"
+
+#: admin/inc/class-spicethemes-about-page.php:308
+msgid "Support"
+msgstr "Support"
+
+#: admin/inc/class-spicethemes-about-page.php:300
+msgid "Recommended Actions"
+msgstr "Actions recommandées"
+
+#: admin/inc/class-spicethemes-about-page.php:295
+#: admin/tab-pages/getting-started.php:23
+msgid "Getting Started"
+msgstr "Démarrer"
+
+#: admin/inc/class-spicethemes-about-page.php:243
+msgid "See changelog below:"
+msgstr "Voir le journal ci-dessous :"
+
+#: admin/inc/class-spicethemes-about-page.php:136
+msgid "Get started with HoneyWaves theme"
+msgstr "Démarrer avec le thème HoneyWaves"
+
+#: admin/inc/class-spicethemes-about-page.php:135
+msgid "HoneyWaves theme is installed. To take full advantage of the features this theme has to offer visit our %1$s welcome page %2$s"
+msgstr "HoneyWaves est installé. Pour tirer pleinement avantage des fonctionnalités que ce thème a à offrir visitez notre %1$spage de bienvenue%2$s."
+
+#: admin/inc/class-spicethemes-about-page.php:122
+msgid "Welcome to %1$s %2$s"
+msgstr "Bienvenue dans %1$s %2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:121
+msgid "About %1$s %2$s"
+msgstr "À propos de %1$s %2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:113
+msgid "View Theme Info"
+msgstr "Voir les infos du thème"
+
+#: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
+#: admin/inc/class-spicethemes-about-page.php:74
+msgid "Error"
+msgstr "Erreur"
+
+#: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
+#: admin/inc/class-spicethemes-about-page.php:73
+msgid "Activating"
+msgstr "Activation"
+
+#: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
+#: admin/inc/class-spicethemes-about-page.php:72
+msgid "Installing"
+msgstr "Installation"
+
+#: inc/header/header-nav.php:40
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d élément"
+msgstr[1] "%d éléments"
+
+#. Author URI of the theme
+msgid "https://spicethemes.com/"
+msgstr "https://spicethemes.com/"
+
+#. Author of the theme
+msgid "spicethemes"
+msgstr "spicethemes"
+
+#. Theme URI of the theme
+msgid "https://spicethemes.com/honeywaves-wordpress-theme/"
+msgstr "https://spicethemes.com/honeywaves-wordpress-theme/"

@@ -1,0 +1,34 @@
+== Changelog ==
+
+@Version 1.0.4
+* Fixed prefix issue and changed escaping function.
+* Added "Premium Theme Help Docs" link in About HoneyWaves option page.
+
+@Version 1.0.3
+* Escaped the pingback_url().
+* Fixed logo width issue in responsive layout and removed unnecessary code.
+* Updated the Premium theme links on the About option's page.
+* Footer Credit not editable in the free version.
+
+@Version 1.0.2
+* Fixed social icon & topbar_info widgets issue.
+* Added "e-commerce" tag and changed "Requires at least" field version in style.css.
+
+@Version 1.0.1
+* Add support for core custom logo.
+
+@Version 1.0
+* Fixed strings as per i18n.
+
+@Version 0.4
+* Added the parent theme license in the readme file.
+* Changed the tested up to in style.css and a readme file.
+
+@Version 0.3
+* Removed some unwanted code.
+
+@Version 0.2
+* Screenshot updated, minor changes.
+
+@Version 0.1
+* Initial release.
