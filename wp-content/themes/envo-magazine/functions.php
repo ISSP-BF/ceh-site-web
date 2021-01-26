@@ -411,14 +411,10 @@ if ( !function_exists( 'envo_magazine_generate_construct_footer' ) ) :
 	function envo_magazine_generate_construct_footer() {
 		?>
 		<div class="footer-credits-text text-center">
-			<?php 
-			/* translators: %s: WordPress name with wordpress.org URL */
-			printf( esc_html__( 'Proudly powered by %s', 'envo-magazine' ), '<a href="' . esc_url( __( 'https://wordpress.org/', 'envo-magazine' ) ) . '">WordPress</a>' );
-			?>
 			<span class="sep"> | </span>
 			<?php 
 			/* translators: %1$s: Envo Magazine name with envothemes.com URL */
-			printf( esc_html__( 'Theme: %1$s', 'envo-magazine' ), '<a href="' . esc_url( 'https://envothemes.com/' ) . '">Envo Magazine</a>' );
+			printf( esc_html__( 'Copyright © 2021 ISSP - Tous droits réservés .' ));
 			?>
 		</div> 
 		<?php
