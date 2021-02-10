@@ -60,6 +60,36 @@
                         </p>
                     <?php endif; ?>
                 </div><!-- .site-branding-text -->
+                <style>
+                    
+                    @media (min-width: 768px) {
+                        marquee>img{
+                            height:60px!important;
+                        }
+                        .site-branding-logo1{
+                            width:50%!important;
+                        }
+                    }
+                    @media (max-width: 768px) {
+                        marquee>img{
+                            height:50px!important;
+                        }
+                    }
+                </style>
+                <div class="site-branding-logo site-branding-logo1" style="float:right;">
+                    <a href="#" class="custom-logo-link" rel="home" aria-current="page">
+                        <marquee direction=right behavior=alternate scrollamount=1>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                    </marquee>   
+                </a>                
+                </div>
             </div>
             <?php if (is_active_sidebar('envo-magazine-header-area')) { ?>
                 <div class="site-heading-sidebar col-md-8" >
@@ -73,11 +103,19 @@
         </div>
     </div>
 </div>
+<style>
+    .hidden2{
+        display:none;
+    }
+</style>
 <?php do_action('envo_magazine_before_menu'); ?> 
 <div class="main-menu">
-    <nav id="site-navigation" class="navbar navbar-default">     
-        <div class="container">   
+    <nav id="site-navigation" class="navbar navbar-default">   
+        <div class="container"> 
+              
             <div class="navbar-header">
+            <img id="logo2" class="hidden" src="http://localhost/ceh/wp-content/uploads/2021/02/ceh-v18-e1612900484760.png" alt="" style="height:50px">  
+
                 <?php if (function_exists('max_mega_menu_is_enabled') && max_mega_menu_is_enabled('main_menu')) : ?>
                 <?php elseif (has_nav_menu('main_menu')) : ?>
                 <button id="main-menu-panel" class="open-panel visible-xs" data-panel="main-menu-panel">

@@ -85,10 +85,11 @@ function wideban_save_wb() {
         }else{
             global $wpdb;
               $db_table_prefix = $wpdb->prefix;
-              $add_wb = $wpdb->prepare("INSERT into ".$db_table_prefix."wb_banner (texte,bg_color,txt_color) VALUES (
+              $add_wb = $wpdb->prepare("INSERT into ".$db_table_prefix."wb_banner (texte,bg_color,txt_color,date_end) VALUES (
 				'".sanitize_text_field($_POST['wb_banner'])."',
 				'".$bg_color_wb."',
-                '".$text_color_wb."'
+                '".$text_color_wb."',
+                '".$_POST['date_end']."'
                 )") ;
 				$wpdb->query($add_wb);
             
@@ -104,7 +105,7 @@ function wideban_liste_wb() {
     
    global $wpdb;
      $db_table_prefix = $wpdb->prefix;
-    $resultats = $wpdb->get_results("SELECT * FROM ".$db_table_prefix."wb_banner WHERE order by id DESC") ;
+    $resultats = $wpdb->get_results("SELECT * FROM ".$db_table_prefix."wb_banner order by id DESC") ;
     ///how many
     $numbers = $wpdb->num_rows;
     $i = 0;
@@ -126,6 +127,9 @@ function wideban_liste_wb() {
                     <th>';
                     echo _e('Delete', 'wide_bn' );
                     echo '</th>
+                    <th>';
+                    echo _e('Date end', 'wide_bn' );
+                    echo '</th>
                 </tr>
             ';
             
@@ -144,6 +148,7 @@ function wideban_liste_wb() {
                     echo '</td>';
                     echo '<td class="switchon" id="wb-'.esc_attr($post->id).'"><input type="checkbox" name="activate" '.$etat.' class="activate" data-id="'.esc_attr($post->id).'"><span class="info_update"></span></td>';
                     echo '<td  class="deleteit" id="delete-'.esc_attr($post->id).'"><span class="delete" data-id="'.esc_attr($post->id).'">X</span></td>';
+                    echo '<td>'.esc_html($post->date_end).'</td>';
                 echo '</tr>';
             }
         $i++;
@@ -209,12 +214,12 @@ add_action( 'wp_ajax_nopriv_show_wb', 'wideban_show_wb' );
 function wideban_show_wb() {
     global $wpdb;
      $db_table_prefix = $wpdb->prefix;
-     $resultats = $wpdb->get_results("SELECT * FROM ".$db_table_prefix."wb_banner WHERE date_end<now() AND active='1' order by id ASC") ;
+     $resultats = $wpdb->get_results("SELECT * FROM ".$db_table_prefix."wb_banner WHERE date_end>=CAST(now() AS DATE) AND active='1' order by date_end ASC") ;
     ///how many
     $numbers = $wpdb->num_rows;
     $i = 0;
     if( $numbers > 0){
-        echo '<marquee style="background-color: #00aff2;color:white;" scrollamount="5">';
+        echo '<marquee style="background-color: #f2930d;color:white;" scrollamount="5">';
         foreach ($resultats as $post) {
            if((!empty($post->type_btn)) && ($post->type_btn == 'full')){echo '<a href="'.esc_url($post->link).'">';}
             echo '
@@ -224,7 +229,7 @@ function wideban_show_wb() {
                 echo '<a href="'.esc_url($post->link).'" style="color:'.esc_attr($post->btn_txt_color).';background-color:'.esc_attr($post->btn_bg_color).'" id="wb_btn_'.esc_attr($post->id).'">'.esc_html($post->btn).'</a>';
                 
             }
-            echo '</label>';
+            echo '.&nbsp;&nbsp;</label>';
             if((!empty($post->type_btn)) && ($post->type_btn == 'full')){echo '</a>';}
          }
          

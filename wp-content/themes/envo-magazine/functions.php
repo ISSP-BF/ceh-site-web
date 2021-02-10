@@ -414,7 +414,7 @@ if ( !function_exists( 'envo_magazine_generate_construct_footer' ) ) :
 			<span class="sep"> | </span>
 			<?php 
 			/* translators: %1$s: Envo Magazine name with envothemes.com URL */
-			printf( esc_html__( 'Copyright © 2021 ISSP - Tous droits réservés .' ));
+			printf( esc_html__( 'Copyright © 2021 CEH - Tous droits réservés .' ));
 			?>
 		</div> 
 		<?php
