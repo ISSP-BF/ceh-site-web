@@ -343,11 +343,13 @@ if(isset($_POST['weblizar_nls_submit_subscriber'])){
 			$l_name           = $all_emails->l_name;
 			$flag_act         = $all_emails->flag;
 			$current_time     = current_time( 'Y-m-d h:i:s' );
-			$adminemail       = $wl_nls_options['wp_mail_email_id'];
+			// $adminemail       = $wl_nls_options['wp_mail_email_id'];
+			$adminemail       = 'newsletter@ceh-uemoa.org';
 			$plugin_url       = site_url();
-			$headers          = 'Content-type: text/html'."\r\n"."From:$plugin_url <$adminemail>"."\r\n".'Reply-To: '.$adminemail . "\r\n".'X-Mailer: PHP/' . phpversion();
+			$headers          = 'Content-type: text/html'."\r\n"."From: Ceh-uemoa.org <$adminemail>"."\r\n".'Reply-To: '.$adminemail . "\r\n".'X-Mailer: PHP/' . phpversion();
+//			$headers          = 'Content-type: text/html'."\r\n"."From:$plugin_url <$adminemail>"."\r\n".'Reply-To: '.$adminemail . "\r\n".'X-Mailer: PHP/' . phpversion();
 			$subject          = sanitize_text_field( $_POST['subscriber_mail_subject'] ) .': Confirmation Subscription';
-			$message          = 'Hi '.$f_name.' '.$l_name.', <br/>';
+			$message          = 'Bonjour '.$f_name.' '.$l_name.', <br/>';
 			global $current_user;
 			wp_get_current_user();
 			$plugin_site_url = site_url();  

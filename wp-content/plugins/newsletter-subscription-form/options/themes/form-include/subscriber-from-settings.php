@@ -115,7 +115,6 @@ if(isset($_POST['php_submit_subscriber']) && isset($_POST['security'])){
 			if($select_process == 'madmimi') {	
 				require_once('madmimi/MadMimi.class.php');
 				$adminemailid = $wl_nls_options['madmimi_username'];
-				$adminemailid = 'newsletter@ceh-uemoa.org';
 				$adminapi = $wl_nls_options['madmimi_api_key'];
 				$mail = new MadMimi($adminemailid, $adminapi);
 				$response = $mail->Lists();
