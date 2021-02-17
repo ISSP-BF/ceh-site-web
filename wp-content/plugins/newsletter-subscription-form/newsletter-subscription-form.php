@@ -18,8 +18,8 @@
  * Default Constants
  */
 
-define('NLS_TEXT_DOMAIN', 'newsletter-subscription-form'); // Your textdomain
-define('NLS_PLUGIN_NAME', esc_html__('Newsletter Subscription Form', 'NLS_TEXT_DOMAIN')); // Plugin Name shows up on the admin settings screen.
+define('NLS_TEXT_DOMAIN', 'newsletter'); // Your textdomain
+define('NLS_PLUGIN_NAME', esc_html__('Newsletter', 'NLS_TEXT_DOMAIN')); // Plugin Name shows up on the admin settings screen.
 
 define("WEBLIZAR_NLS_PLUGIN_URL", plugin_dir_url(__FILE__));
 

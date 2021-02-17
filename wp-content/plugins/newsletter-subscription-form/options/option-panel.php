@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 add_action('admin_menu', 'nls_admin_menu_pannel');
 function nls_admin_menu_pannel() {
 
-	$page = add_menu_page(NLS_PLUGIN_NAME, esc_html__('Newsletter Subscription Form', 'NLS_TEXT_DOMAIN'), 'manage_options','nls-weblizar', 'nls_option_panal_function', '
+	$page = add_menu_page(NLS_PLUGIN_NAME, esc_html__('Newsletter', 'NLS_TEXT_DOMAIN'), 'manage_options','nls-weblizar', 'nls_option_panal_function', '
 dashicons-backup',39);
  	add_action('admin_print_styles-'.$page, 'nls_admin_enqueue_script'); // add_action function for adding the js and css files
 }
@@ -94,27 +94,6 @@ function nls_option_panal_function() { ?>
 				<div class="col-md-8 col-sm-8" style="margin-top: 20px;">
 					<h2><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/logo.png" alt="Weblizar" style="width: 150px;height: 100px;"  /> <span style="font-size:24px;font-weight:bold;top: 6px;position: relative; margin-left:50px;color: #fff;"><?php esc_html_e(NLS_PLUGIN_NAME,'NLS_TEXT_DOMAIN');?></span></h2>
 				</div>
-				<div class="col-md-4 col-sm-4 search1" style="padding: 0px; margin-top: 30px;">
-					<a href="https://wordpress.org/support/plugin/newsletter-subscription-form" target="_blank"><span class="far fa-comment"></span><?php esc_html_e(' Support Forum','NLS_TEXT_DOMAIN');?></a>
-					<a href="https://weblizar.com/newsletter-subscription-form-plugin-documentation/" target="_blank"><span class="far fa-edit"></span> <?php esc_html_e(' View Documentation','NLS_TEXT_DOMAIN');?></a>
-
-					<div class="weblizar-notice-content" style="text-align: center;float: right;">
-						<div class="wporg-ratings rating-stars">
-						<?php
-						$weblizar_rate_url = 'https://wordpress.org/support/plugin/newsletter-subscription-form/reviews/?rate=5#new-post';
-						?>
-						<?php esc_html_e( 'Do you like this plugin?', 'NLS_TEXT_DOMAIN'); ?><br>
-						<?php esc_html_e( 'Please take a few seconds to rate it on WordPress.org!', 'NLS_TEXT_DOMAIN'); ?><br>
-						<a class="weblizar-rate-it" href="<?php esc_url($weblizar_rate_url); ?>"></a>
-
-							<a href="//wordpress.org/support/plugin/newsletter-subscription-form/reviews/?rate=1#new-post" data-rating="1" title="Poor"><span class="dashicons dashicons-star-filled" style="color:#ffb900 !important;"></span></a>
-							<a href="//wordpress.org/support/plugin/newsletter-subscription-form/reviews/?rate=2#new-post" data-rating="2" title="Works"><span class="dashicons dashicons-star-filled" style="color:#ffb900 !important;"></span></a>
-							<a href="//wordpress.org/support/plugin/newsletter-subscription-form/reviews/?rate=3#new-post" data-rating="3" title="Good"><span class="dashicons dashicons-star-filled" style="color:#ffb900 !important;"></span></a>
-							<a href="//wordpress.org/support/plugin/newsletter-subscription-form/reviews/?rate=4#new-post" data-rating="4" title="Great"><span class="dashicons dashicons-star-filled" style="color:#ffb900 !important;"></span></a>
-							<a href="//wordpress.org/support/plugin/newsletter-subscription-form/reviews/?rate=5#new-post" data-rating="5" title="Fantastic!"><span class="dashicons dashicons-star-filled" style="color:#ffb900 !important;"></span></a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
   	</header>
@@ -132,7 +111,6 @@ function nls_option_panal_function() { ?>
 						<li data-toggle="tooltip" data-placement="right" title="<?php esc_attr_e('Subscriber Settings','NLS_TEXT_DOMAIN' );?>"><a href="#" id="subscriber-settings" data-toggle="tab"><i class="fas fa-envelope icon"></i><?php esc_html_e('Subscriber Settings','NLS_TEXT_DOMAIN' );?></a></li>
 						<li data-toggle="tooltip" data-placement="right" title="<?php esc_attr_e('Subscriber Provider Option','NLS_TEXT_DOMAIN' );?>"><a href="#" id="subscriber-provider-option" data-toggle="tab"><i class="fas fa-cog icon"></i><?php esc_html_e('Subscriber Provider Option','NLS_TEXT_DOMAIN' );?></a></li>
 						<li data-toggle="tooltip" data-placement="right" title="<?php esc_attr_e('Subscriber List Option','NLS_TEXT_DOMAIN' );?>"><a href="#" id="subscriber-list-option" data-toggle="tab"><i class="fas fa-archive icon"></i><?php esc_html_e('Subscriber List Option','NLS_TEXT_DOMAIN' );?></a></li>
-						<li class="get-pro" data-toggle="" data-placement="right" title="<?php esc_attr_e('Get Premium Version','NLS_TEXT_DOMAIN');?>"><a href="#" id="get_pro_version" data-toggle="tab"><?php esc_html_e('Get Premium Version','NLS_TEXT_DOMAIN');?></a></li>
 					</ul>
 
 				<!-- Option Data saving  -->
@@ -196,7 +174,7 @@ parent::__construct(
 esc_html__('Newsletter Form Widget', 'nls_widget_domain'),
 
 // Widget description
-array( 'description' => esc_html__( 'Widget For Newsletter Subscription Form', 'nls_widget_domain' ), )
+array( 'description' => esc_html__( 'Widget For Newsletter', 'nls_widget_domain' ), )
 );
 }
 

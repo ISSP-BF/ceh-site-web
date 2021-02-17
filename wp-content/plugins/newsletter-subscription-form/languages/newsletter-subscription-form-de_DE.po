@@ -271,7 +271,7 @@ msgstr ""
 
 #: options/option-panel.php:141
 msgid "Subscriber List Option"
-msgstr "Abonnentenliste"
+msgstr "Liste des abonnés"
 
 #: options/option-panel.php:142 options/option-settings.php:963
 msgid "Get Premium Version"

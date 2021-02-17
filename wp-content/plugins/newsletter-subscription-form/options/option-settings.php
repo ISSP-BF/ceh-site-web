@@ -13,7 +13,7 @@ $wl_nls_options = weblizar_nls_get_options();?>
 	<div class="tab-pane block ui-tabs-panel active" id="templates-option">
 		<!-- plugin template selection setting -->
 		<div class="row">
-			<div class="col-md-9 option">
+			<div class="col-md-12 option">
 				<div class="tab-content">
 					<div id="weblizar-template" class="tab-pane fade in active">
 						<!-- plugin template free theme layout selection setting -->
@@ -79,10 +79,7 @@ $wl_nls_options = weblizar_nls_get_options();?>
 													style="background-image: url('<?php echo plugin_dir_url(__FILE__).'images/screen-shot'.$i.'.png'; ?>"></span>
 											</div>
 										</div>
-										<h4 class="op_name"><?php esc_html_e('Theme ', 'NLS_TEXT_DOMAIN'); ?><?php echo esc_attr($i); ?>&nbsp;&nbsp;<a
-												target="_blank" class="nls_temp_demo"
-												href="<?php echo esc_attr($nls_demo_temp); ?>">
-												<?php esc_html_e('View Demo ', 'NLS_TEXT_DOMAIN'); ?></a>
+										<h4 class="op_name"><?php esc_html_e('Theme ', 'NLS_TEXT_DOMAIN'); ?><?php echo esc_attr($i); ?>&nbsp;&nbsp;
 										</h4>
 										<?php if ($wl_nls_options['select_template']=='select_template'.$i) { ?>
 										<span class="op_name1 green"><span class="activate"> <?php esc_html_e('Activated', 'NLS_TEXT_DOMAIN'); ?></span>
@@ -95,49 +92,18 @@ $wl_nls_options = weblizar_nls_get_options();?>
 								<?php
 } ?>
 
-								<?php for ($i=3; $i<=6; $i++) {
-        $nls_demo_temp = "http://demo.weblizar.com/newsletter-subscription-form-pro/template-".$i ; ?>
-								<div class="col-md-12 col-sm-6 op_tem site_template"
-									id="select_template<?php echo esc_attr($i)?>"
-									onclick="protheme()">
-									<div class="selected_template">
-										<div class="row op_show" data-orient="top">
-											<div class="op_weblizar-pics">
-												<span class="image-shop-scroll"
-													style="background-image: url('<?php echo plugin_dir_url(__FILE__).'images/screen-shot'.$i.'.png'; ?>"></span>
-											</div>
-										</div>
-										<h4 class="op_name"><?php  echo esc_html__('Theme', 'NLS_TEXT_DOMAIN') . esc_html($i); ?>&nbsp;&nbsp;<a
-												class="nls_temp_demo" target="_blank"
-												href="<?php echo esc_url($nls_demo_temp); ?>"><?php esc_html_e('View Demo', 'NLS_TEXT_DOMAIN'); ?></a>
-										</h4>
-									</div>
-								</div>
-								<?php } ?>
 							</div>
 						</form>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-				<div class="update_pro_image">
-					<a target="_blank" href="https://weblizar.com/plugins/newsletter-subscription-form-pro/">
-						<img class="nls_getpro"src="<?php echo plugin_dir_url(__FILE__).'images/nls.jpg'; ?>">
-					</a>
-				</div>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 	<div class="tab-pane col-md-12 block ui-tabs-panel deactive" id="skin-layout-settings">
 		<!-- plugin General selection setting -->
 		<div class="row">
-			<div class="col-md-9 option">
+			<div class="col-md-12 option">
 				<div class="tab-content">
 					<div id="skin-layout" class="tab-pane fade in active">
 						<!-- Appearance selection setting -->
@@ -420,25 +386,12 @@ $wl_nls_options = weblizar_nls_get_options();?>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-				<div class="update_pro_image">
-					<a target="_blank" href="https://weblizar.com/plugins/newsletter-subscription-form-pro/">
-						<img class="nls_getpro"src="<?php echo plugin_dir_url(__FILE__).'images/nls.jpg'; ?>">
-					</a>
-				</div>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-			</div>
 		</div>
 	</div>
 	<div class="tab-pane col-md-12 block ui-tabs-panel deactive" id="social-option">
 		<!-- Social Media setting -->
 		<div class="row">
-			<div class="col-md-9 option">
+			<div class="col-md-12 option">
 				<div class="tab-content">
 					<div id="page-social" class="tab-pane fade in active">
 						<!-- Social link and icon setting -->
@@ -530,26 +483,13 @@ $wl_nls_options = weblizar_nls_get_options();?>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-				<div class="update_pro_image">
-					<a target="_blank" href="https://weblizar.com/plugins/newsletter-subscription-form-pro/">
-						<img class="nls_getpro"src="<?php echo plugin_dir_url(__FILE__).'images/nls.jpg'; ?>">
-					</a>
-				</div>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-			</div>
 		</div>
 	</div>
 	<!-- Subscriber Form option setting -->
 	<div class="tab-pane col-md-12 block ui-tabs-panel deactive" id="subscriber-settings">
 		<!-- Subscriber Form general settings -->
 		<div class="row">
-			<div class="col-md-9 option">
+			<div class="col-md-12 option">
 				<div class="tab-content">
 					<form action="post" id="weblizar_nls_subscriber_option">
 						<?php $nonce = wp_create_nonce('nonce_save_subscriber_option'); ?>
@@ -837,25 +777,12 @@ $wl_nls_options = weblizar_nls_get_options();?>
 					</form>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-				<div class="update_pro_image">
-					<a target="_blank" href="https://weblizar.com/plugins/newsletter-subscription-form-pro/">
-						<img class="nls_getpro"src="<?php echo plugin_dir_url(__FILE__).'images/nls.jpg'; ?>">
-					</a>
-				</div>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-			</div>
 		</div>
 	</div>
 	<!-- Subscriber Form provider option setting -->
 	<div class="tab-pane col-md-12 block ui-tabs-panel deactive" id="subscriber-provider-option">
 		<div class="row">
-			<div class="col-md-9 option">
+			<div class="col-md-12 option">
 				<div class="tab-content">
 					<form action="post" id="weblizar_nls_subscriber_provider_option">
 						<?php $nonce = wp_create_nonce('nonce_subscriber_provider_option'); ?>
@@ -1151,25 +1078,12 @@ $wl_nls_options = weblizar_nls_get_options();?>
 					</form>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-				<div class="update_pro_image">
-					<a target="_blank" href="https://weblizar.com/plugins/newsletter-subscription-form-pro/">
-						<img class="nls_getpro"src="<?php echo plugin_dir_url(__FILE__).'images/nls.jpg'; ?>">
-					</a>
-				</div>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-			</div>
 		</div>
 	</div>
 	<!-- Get the Subscriber Form database output setting -->
 	<div class="tab-pane col-md-12 block ui-tabs-panel deactive" id="subscriber-list-option">
 		<div class="row">
-			<div class="col-md-9 option">
+			<div class="col-md-12 option">
 				<div class="tab-content">
 					<form action="post" id="weblizar_nls_subscribe_form">
 						<?php $nonce = wp_create_nonce('subscribers_options_settings'); ?>
@@ -1388,19 +1302,6 @@ $wl_nls_options = weblizar_nls_get_options();?>
 				</form>
 			</div>
 
-			<div class="col-md-3"><br>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-				<div class="update_pro_image">
-					<a target="_blank" href="https://weblizar.com/plugins/newsletter-subscription-form-pro/">
-						<img class="nls_getpro"src="<?php echo plugin_dir_url(__FILE__).'images/nls.jpg'; ?>">
-					</a>
-				</div>
-				<div class="update_pro_button"><a target="_blank"
-						href="https://weblizar.com/plugins/newsletter-subscription-form-pro/"><?php esc_html_e('Buy Now $7', 'NLS_TEXT_DOMAIN'); ?></a>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>

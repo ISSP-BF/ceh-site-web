@@ -40,7 +40,7 @@ define( 'DB_USER', 'cehuemsadminceh' );
 define( 'DB_PASSWORD', 'CehUemoa2021' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'issp.bf' );
+define( 'DB_HOST', 'localhost' );
 endif;
 
 
