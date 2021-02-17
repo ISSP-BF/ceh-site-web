@@ -17,9 +17,9 @@
  *
  * @package WordPress
  */
+$production = true;
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+if($production):
 define( 'DB_NAME', 'cehuemsadminceh' );
 
 /** MySQL database username */
@@ -30,6 +30,19 @@ define( 'DB_PASSWORD', 'CehUemoa2021' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'cehuemsadminceh.mysql.db' );
+else :
+define( 'DB_NAME', 'cehuemsadminceh' );
+
+/** MySQL database username */
+define( 'DB_USER', 'cehuemsadminceh' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', 'CehUemoa2021' );
+
+/** MySQL hostname */
+define( 'DB_HOST', 'issp.bf' );
+endif;
+
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
