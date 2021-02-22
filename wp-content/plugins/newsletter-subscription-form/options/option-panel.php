@@ -8,6 +8,7 @@ function nls_admin_menu_pannel() {
 
 	$page = add_menu_page(NLS_PLUGIN_NAME, esc_html__('Newsletter', 'NLS_TEXT_DOMAIN'), 'manage_options','nls-weblizar', 'nls_option_panal_function', '
 dashicons-backup',39);
+
  	add_action('admin_print_styles-'.$page, 'nls_admin_enqueue_script'); // add_action function for adding the js and css files
 }
 
