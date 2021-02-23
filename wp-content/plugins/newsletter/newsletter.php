@@ -347,6 +347,7 @@ function add_subscribers(){
 }
 require_once('mail_sender.php');
 function sendMail($subject,$message){
+    if(empty($subject))return '';
     global $wpdb;
     $table_name = $wpdb->prefix . 'subscribers';
     $requete = "SELECT `id`, `f_name`, `l_name`, `email`, `date` FROM $table_name";
