@@ -17,7 +17,7 @@
  *
  * @package WordPress
  */
-$production = false;
+$production = true;
 
 if($production):
 define( 'DB_NAME', 'cehuemsadminceh' );
@@ -91,7 +91,7 @@ $table_prefix = 'ceh_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 /* That's all, stop editing! Happy publishing. */
 
