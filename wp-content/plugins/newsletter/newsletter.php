@@ -346,6 +346,22 @@ function add_subscribers(){
     }
 }
 
+function sendMail($subject,$message){
+    require_once('mail_sender.php');
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'subscribers';
+    $requete = "SELECT `id`, `f_name`, `l_name`, `email`, `date` FROM $table_name";
+    $resultat = $wpdb->get_results( $requete );
+    $erreur_sql = $wpdb->last_error;
+    if ( $erreur_sql == "" ) {
+        if ( $wpdb->num_rows > 0 ) {
+            foreach( $resultat as $lg ) {
+                sendMailNewLetter($lg->email,$lg->f_name,$lg->l_name,$subject,$message) 
+            }
+        }
+    }
+}
+
 function add_news_letter(){
     
     if(isset($_POST['add_news_letter'])){
@@ -363,6 +379,7 @@ function add_news_letter(){
     echo '<script>
           toastr.success("La newsletter a été enregistré");
     </script>';
+    sendMail($subject,$content);
     }
 }
 
