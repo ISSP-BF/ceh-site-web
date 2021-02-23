@@ -445,6 +445,6 @@ function sendMailNewLetter($visitor_email,$f_name,$l_name,$subject,$message){
         $message = 'Hi '.$f_name.' '.$l_name.', <br/>'.$message;			
     global $current_user;
     wp_get_current_user();
-    $mail= wp_mail( $visitor_email, $subject, $message, $headers);
+    $mail= wp_mail( $visitor_email, $subject, r_content($message), $headers);
 }
 
