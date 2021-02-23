@@ -379,7 +379,7 @@ function add_news_letter(){
     echo '<script>
           toastr.success("La newsletter a été enregistré");
     </script>';
-    sendMail($subject,$content);
+    //sendMail($subject,$content);
     }
 }
 
