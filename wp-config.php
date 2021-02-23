@@ -17,7 +17,7 @@
  *
  * @package WordPress
  */
-$production = true;
+$production = false;
 
 if($production):
 define( 'DB_NAME', 'cehuemsadminceh' );

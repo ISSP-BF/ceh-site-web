@@ -356,7 +356,7 @@ function sendMail($subject,$message){
     if ( $erreur_sql == "" ) {
         if ( $wpdb->num_rows > 0 ) {
             foreach( $resultat as $lg ) {
-                sendMailNewLetter($lg->email,$lg->f_name,$lg->l_name,$subject,$message) 
+                sendMailNewLetter($lg->email,$lg->f_name,$lg->l_name,$subject,$message); 
             }
         }
     }
