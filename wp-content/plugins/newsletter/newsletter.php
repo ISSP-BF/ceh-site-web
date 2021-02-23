@@ -345,9 +345,8 @@ function add_subscribers(){
     endif;
     }
 }
-
+require_once('mail_sender.php');
 function sendMail($subject,$message){
-    require_once('mail_sender.php');
     global $wpdb;
     $table_name = $wpdb->prefix . 'subscribers';
     $requete = "SELECT `id`, `f_name`, `l_name`, `email`, `date` FROM $table_name";
@@ -379,7 +378,11 @@ function add_news_letter(){
     echo '<script>
           toastr.success("La newsletter a été enregistré");
     </script>';
-    //sendMail($subject,$content);
+        $erreur_sql = $wpdb->last_error;
+        if($erreur_sql == '')
+        {
+            sendMail($subject,$content);
+        }
     }
 }
 
