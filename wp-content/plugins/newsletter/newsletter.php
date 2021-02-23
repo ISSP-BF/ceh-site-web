@@ -185,6 +185,13 @@ function nl_edit_e_mail_form(){
                             wp_editor( $content, 'nl_content',$arg );?>
                     </td>
                 </tr>
+                <tr>
+                <td colspan="2">
+                    <label for="addFile"><?php _e('Joindre un fichier');?></label>
+                    <input type="file" name="chaticon" id="addFile" value="" class="file-upload" /><br />
+                    <button type="button" id="insert-media-button" class="button insert-media add_media" data-editor="addFile"><span class="wp-media-buttons-icon"></span> Joindre un fichier</button>
+                </td>
+                </tr>
             </tbody>
         </table>
         <?php submit_button('Envoyer', 'primary');?>
@@ -372,6 +379,14 @@ function save_nates_awesome_menu_page(){
     }
 }
 
+
+function r_content( $content ) {
+    $new_content = str_replace('\\','',$content);
+    return ($new_content);
+}
+
+add_filter( 'the_content', 'r_content', 1 );
+
 function show_new_letters(){
     if(isset($_GET['id'])):
         $id = $_GET['id'];
@@ -382,7 +397,7 @@ function show_new_letters(){
         $erreur_sql = $wpdb->last_error;
         foreach( $resultat as $lg ) {
             echo "<label>$lg->subject</label>";
-            echo "<p>".$lg->content."</p>";
+            echo "<p>".r_content($lg->content)."</p>";
             echo "<label>$lg->date</label>";
             $arg =array(
                 'textarea_name' => 'nl_content',
@@ -391,7 +406,7 @@ function show_new_letters(){
                 'wpautop' => false,
                 'teeny' => true,
             "required"=>true); 
-                wp_editor( $lg->content, 'nl_content',$arg );
+                wp_editor( r_content($lg->content), 'nl_content',$arg );
         }
         
     endif;
