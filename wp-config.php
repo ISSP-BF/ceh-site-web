@@ -17,7 +17,8 @@
  *
  * @package WordPress
  */
-$production = true;
+$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+$production = $hostname!='ISSPPW10-HD-071'?true:false;
 
 if($production):
 define( 'DB_NAME', 'cehuemsadminceh' );
