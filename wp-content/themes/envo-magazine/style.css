@@ -164,7 +164,7 @@ td, th {
     color: #fff;
     display: block;
     z-index: 99;
-    background: #e11e30;
+    background: #424b9a;
     border-radius: 100%;
     transform: translateY(0);
     transition: all 0.3s ease;
@@ -178,7 +178,7 @@ td, th {
 }
 
 .scroll-to-top:hover {
-    background: #bf1a29;
+    background: #5860af;
     text-decoration: none;
 }
 

@@ -64,7 +64,8 @@
                     
                     @media (min-width: 768px) {
                         marquee>img{
-                            height:60px!important;
+                            height:90px!important;
+                            border-radius:5%;
                         }
                         .site-branding-logo1{
                             width:50%!important;
@@ -73,6 +74,7 @@
                     @media (max-width: 768px) {
                         marquee>img{
                             height:50px!important;
+                            border-radius:5%;
                         }
                     }
                 </style>
@@ -107,6 +109,15 @@
     .hidden2{
         display:none;
     }
+    
+    @media (min-width: 768px) {
+        #logo2{
+            margin-left: -50%;
+        }
+    }
+    @media (max-width: 768px) {
+        
+    }
 </style>
 <?php do_action('envo_magazine_before_menu'); ?> 
 <div class="main-menu">
@@ -114,7 +125,7 @@
         <div class="container"> 
               
             <div class="navbar-header">
-            <img id="logo2" class="hidden" src="http://localhost/ceh/wp-content/uploads/2021/02/ceh-v18-e1612900484760.png" alt="" style="height:50px">  
+            <img id="logo2" class="hidden" src="wp-content/uploads/2021/05/v8.png" alt="" style="height:50px;">  
 
                 <?php if (function_exists('max_mega_menu_is_enabled') && max_mega_menu_is_enabled('main_menu')) : ?>
                 <?php elseif (has_nav_menu('main_menu')) : ?>

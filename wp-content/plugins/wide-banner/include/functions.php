@@ -219,7 +219,7 @@ function wideban_show_wb() {
     $numbers = $wpdb->num_rows;
     $i = 0;
     if( $numbers > 0){
-        echo '<marquee style="background-color: #f2930d;color:white;" scrollamount="5">';
+        echo '<marquee style="background-color: #d6b23b;color:white;" scrollamount="5">';
         foreach ($resultats as $post) {
            if((!empty($post->type_btn)) && ($post->type_btn == 'full')){echo '<a href="'.esc_url($post->link).'">';}
             echo '
