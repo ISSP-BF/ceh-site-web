@@ -21,16 +21,16 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $production = $hostname!='ISSPPW10-HD-071'?true:false;
 
 if($production):
-define( 'DB_NAME', 'cehuemsadminceh' );
+define( 'DB_NAME', 'ceh_site_web' );
 
 /** MySQL database username */
-define( 'DB_USER', 'cehuemsadminceh' );
+define( 'DB_USER', 'adminceh' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'CehUemoa2021' );
+define( 'DB_PASSWORD', 'c$h_#_2022' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'cehuemsadminceh.mysql.db' );
+define( 'DB_HOST', 'localhost' );
 else :
 define( 'DB_NAME', 'cehuemsadminceh' );
 
