@@ -304,6 +304,10 @@ a:active {
         -o-transition: all 0.5s ease-in-out;
         opacity: 1;
     }
+    #site-navigation-1 .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
     #site-navigation .container{
         padding-left: 0;
         padding-right: 0;
@@ -326,6 +330,9 @@ a:active {
 }
 @media (min-width: 600px) {
     .admin-bar #site-navigation.shrink {
+        top: 32px;
+    }
+    .admin-bar #site-navigation-1.shrink {
         top: 32px;
     }
 }
@@ -534,6 +541,9 @@ a:active {
     border-bottom: 0;
 }
 #site-navigation {
+    min-height: 60px;
+}
+#site-navigation-1 {
     min-height: 60px;
 }
 .navbar-collapse {
@@ -877,6 +887,32 @@ p.site-description {
 .main-menu {
     position: relative;
 }
+
+
+#site-navigation-1,
+#site-navigation-1.shrink {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+#site-navigation-1, nav a {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #000;
+    border-radius: 0;
+}
+#site-navigation-1.shrink {
+    min-height: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 50px;
+}
+#site-navigation-marquee.shrink>img {
+    max-height: 20px;
+}
+
 #site-navigation,
 #site-navigation.shrink {
     background-color: #ffffff;

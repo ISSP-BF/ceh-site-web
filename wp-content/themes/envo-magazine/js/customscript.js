@@ -63,9 +63,14 @@
         var header = $('.site-header').outerHeight();
         if ($(document).scrollTop() > (header + 10)) {
             $('nav#site-navigation').addClass('shrink');
+            $('#site-navigation-1').addClass('shrink');
+            $('#site-navigation-marquee').addClass('shrink');
+            
             $('#logo2').removeClass('hidden');
         } else {
             $('nav#site-navigation').removeClass('shrink');
+            $('#site-navigation-1').removeClass('shrink');
+            $('#site-navigation-marquee').removeClass('shrink');
             $('#logo2').addClass('hidden');
            // console.log(i++);
         }

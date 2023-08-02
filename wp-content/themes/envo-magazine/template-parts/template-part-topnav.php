@@ -33,6 +33,14 @@
         </nav> 
     </div>
 <?php endif; ?>
+
+<div class="container-fluid row"> 
+<div class="container-fluid" style="float: right;">
+        <a href="http://elearning.ceh-uemoa.org/" style="text-decoration: underline;">Accéder à la plateforme de formation</a>
+        <a href="https://data.ceh-uemoa.org/" style="text-decoration: underline;">Plateforme des données numériques</a>
+        </div>    
+    
+</div>
 <div class="site-header container-fluid">
     <div class="container" >
         <div class="row" >
@@ -63,8 +71,8 @@
                 <style>
                     
                     @media (min-width: 768px) {
-                        marquee>img{
-                            height:90px!important;
+                        #site-navigation-marquee>img{
+                            height:70px!important;
                             border-radius:5%;
                         }
                         .site-branding-logo1{
@@ -72,25 +80,25 @@
                         }
                     }
                     @media (max-width: 768px) {
-                        marquee>img{
-                            height:50px!important;
+                        #site-navigation-marquee>img{
+                            height:40px!important;
                             border-radius:5%;
                         }
                     }
                 </style>
-                <div class="site-branding-logo site-branding-logo1" style="float:right;">
+                <div class="site-branding-logo site-branding-logo1" style="float:right;display:none">
                     <a href="#" class="custom-logo-link" rel="home" aria-current="page">
                         <marquee direction=right behavior=alternate scrollamount=1>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
-                    </marquee>   
-                </a>                
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+                        </marquee>   
+                    </a>                
                 </div>
             </div>
             <?php if (is_active_sidebar('envo-magazine-header-area')) { ?>
@@ -174,5 +182,23 @@
         </div>
         <?php do_action('envo_magazine_menu'); ?>
     </nav> 
+
+    
 </div>
+
 <?php do_action('envo_magazine_after_menu'); ?>
+
+<div id="site-navigation-1" class=""> 
+    <div class="container">
+        <div id="site-navigation-marquee" direction=right behavior=alternate scrollamount=1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg?uselang=fr 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Burkina_Faso.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1024px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1024px-Flag_of_Mali.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/800px-Flag_of_Niger.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1024px-Flag_of_Senegal.svg.png 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg" class="custom-logo" alt="Centre d'Excellence de l'Habitat" srcset="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg 300w" sizes="(max-width: 10px) 100vw, 100px" style="height: 100px;">
+        </div>       
+    </div>
+</div>
