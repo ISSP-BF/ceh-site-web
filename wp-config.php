@@ -19,7 +19,7 @@
  */
 $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $production = $hostname!='ISSPPW10-HD-071'?true:false;
-$production = false;
+// $production = false;
 
 if($production):
 define( 'DB_NAME', 'ceh_site_web' );
